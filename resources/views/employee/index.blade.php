@@ -3,7 +3,7 @@
 @section("title", "Employees")
 
 @section('content')
-	<div class="container">
+	<div class="container" ng-app="myApp" ng-controller="myCtrl" ng-init='load()'>
 		<div class="row">
 			<div class="col-lg-12">
 				@widget('Employee\Filter', ["list" => $list])

@@ -1,4 +1,4 @@
-<div class="card" ng-app="myApp" ng-controller="myCtrl">
+<div class="card">
 	<div class="card-header">Search result</div>
 	<div class="card-body">
 		<table class="table table-hover">
@@ -22,7 +22,7 @@
 					<td>@{{model.birthday}}</td>
 					<td>@{{model.address}}</td>
 					<td>@{{model.boss}}</td>
-					<td>@{{model.salary | currency}}</td>
+					<td>@{{model.salary | currency:0}}</td>
 					<td></td>
 				</tr>
 			</tbody>
