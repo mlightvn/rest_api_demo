@@ -81,17 +81,22 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    NGUYEN NGOC NAM
+                </div>
+                <div class="title m-b-md">
+                    WEALTH PARK
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://coxanh.coupon-pon.net/about" target="_blank">Nguyen Ngoc Nam</a>
+                    <a href="https://wealth-park.com/en/" target="_blank">https://wealth-park.com/en/</a>
+                    <a href="https://github.com/namtenten/nam_api_test" target="_blank">Nam: GitHub Demo</a>
+                </div>
+
+                <div class="links">
+                    <a href="https://coxanh.coupon-pon.net/about" target="_blank">Nguyen Ngoc Nam</a>
+                    <a href="https://wealth-park.com/en/" target="_blank">https://wealth-park.com/en/</a>
+                    <a href="https://github.com/namtenten/nam_api_test" target="_blank">Nam: GitHub Demo</a>
                 </div>
             </div>
         </div>
