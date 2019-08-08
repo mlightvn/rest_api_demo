@@ -1,7 +1,7 @@
 <div class="card">
 	<div class="card-header">Filter</div>
 	<div class="card-body">
-		{!!Form::model($employee)!!}
+		{!!Form::model($employee, ["id"=>"filter_form"])!!}
 		<div class="row">
 			<div class="col-md-3">{{Form::text("id", null, ["class"=>"form-control"])}}</div>
 			<div class="col-md-3">{{Form::text("firstname", null, ["class"=>"form-control"])}}</div>
