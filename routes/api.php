@@ -17,9 +17,10 @@ use Illuminate\Http\Request;
 
 Route::resource('employee', 'Api\EmployeeController');
 
-// Route::group(['prefix' => 'employee'], function(){
 
-// });
+Route::group(['prefix' => 'employee'], function(){
+	Route::delete('{id}', 'Api\EmployeeController@delete');
+});
 
 
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
