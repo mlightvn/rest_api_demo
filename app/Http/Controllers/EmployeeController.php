@@ -5,19 +5,10 @@ use Illuminate\Http\Request;
 use App\Model\Employee;
 
 class EmployeeController extends BaseController {
-	protected $modelClassName;
 
 	public function __construct(Request $request)
 	{
 		$this->request = $request;
-
-		$this->init();
-	}
-
-	public function init()
-	{
-		$this->modelClassName = "\App\Model\Employee";
-		// $this->title = __("screen.employee");
 	}
 
 	/**
@@ -27,7 +18,7 @@ class EmployeeController extends BaseController {
 	 */
 	public function index()
 	{
-		$list = $this->modelClassName::search($this->request)->orderBy("created_at", "DESC")->paginate(20);
+		$list = Employee::search($this->request)->orderBy("created_at", "DESC")->paginate(20);
 
 		return view("employee.index", ["list"=>$list]);
 	}

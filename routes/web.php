@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('employee', 'Api\EmployeeController');
+Route::resource('employee', 'EmployeeController');
