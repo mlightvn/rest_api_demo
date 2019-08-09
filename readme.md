@@ -2,6 +2,7 @@
 
 <p align="center">
     <a href="https://employee.coupon-pon.net/">DEMO LINK</a>
+    |
     <a href="https://employee.coupon-pon.net/employee">Employees list page</a>
 </p>
 <p align="center">
