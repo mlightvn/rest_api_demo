@@ -1,3 +1,3 @@
 <header class="container">
-	<h1>EMPLOYEE SYSTEM</h1>
+	<h1 class="text-center">EMPLOYEE SYSTEM</h1>
 </header>

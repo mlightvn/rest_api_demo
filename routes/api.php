@@ -16,11 +16,11 @@ use Illuminate\Http\Request;
 
 
 Route::resource('employee', 'Api\EmployeeController');
+// Route::post('employee/create', 'Api\EmployeeController@store');
 
-
-Route::group(['prefix' => 'employee'], function(){
-	Route::delete('{id}', 'Api\EmployeeController@delete');
-});
+// Route::group(['prefix' => 'employee'], function(){
+// 	Route::delete('{id}', 'Api\EmployeeController@destroy');
+// });
 
 
 // Route::middleware('auth:api')->get('/user', function (Request $request) {

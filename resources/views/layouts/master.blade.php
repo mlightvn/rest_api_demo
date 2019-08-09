@@ -11,6 +11,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="グエン・ナム">
 
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+
 	@section('meta')
 	@show
 

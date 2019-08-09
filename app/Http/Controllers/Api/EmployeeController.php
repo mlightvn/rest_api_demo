@@ -59,11 +59,12 @@ class EmployeeController extends BaseController {
 	 */
 	public function store(Request $request)
 	{
-		$model = new Employee();
-		$model->fill($request->all());
-		$id = $model->save();
+		$model = Employee::create($request->all());
+		$saved_result = $model->save();
 
-		$result["id"] = $id;
+		$result["model"] = $model;
+		$result["request"] = $request->all();
+		$result["result"] = $saved_result;
 
 		return response()->json($result);
 	}
@@ -89,7 +90,7 @@ class EmployeeController extends BaseController {
 		return response()->json($result);
 	}
 
-	public function delete(Employee $employee)
+	public function destroy(Employee $employee)
 	{
 		$result = $employee->delete();
 

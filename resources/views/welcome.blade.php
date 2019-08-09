@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
         <!-- Styles -->
         <style>
@@ -94,9 +95,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://coxanh.coupon-pon.net/about" target="_blank">Nguyen Ngoc Nam</a>
-                    <a href="https://wealth-park.com/en/" target="_blank">https://wealth-park.com/en/</a>
-                    <a href="https://github.com/namtenten/nam_api_test" target="_blank">Nam: GitHub Demo</a>
+                    <a href="/employee" target="_blank"><i class="fas fa-list"></i> Employee</a>
+                    <a href="/employee/create" target="_blank"><i class="fas fa-plus"></i> Create</a>
                 </div>
             </div>
         </div>
