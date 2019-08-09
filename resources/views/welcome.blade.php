@@ -96,7 +96,6 @@
 
                 <div class="links">
                     <a href="/employee" target="_blank"><i class="fas fa-list"></i> Employee</a>
-                    <a href="/employee/create" target="_blank"><i class="fas fa-plus"></i> Create</a>
                 </div>
             </div>
         </div>

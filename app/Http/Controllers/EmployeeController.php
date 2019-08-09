@@ -84,7 +84,7 @@ class EmployeeController extends BaseController {
 		return redirect("employee");
 	}
 
-	public function delete(Employee $employee)
+	public function destroy(Employee $employee)
 	{
 		$result = $employee->delete();
 		return redirect("employee");
