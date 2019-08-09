@@ -6,7 +6,6 @@ use App\Model\Employee;
 
 class EmployeeController extends BaseController {
 	protected $modelClassName;
-	// protected $title = '';
 
 	public function __construct(Request $request)
 	{
@@ -18,7 +17,6 @@ class EmployeeController extends BaseController {
 	public function init()
 	{
 		$this->modelClassName = "\App\Model\Employee";
-		// $this->title = __("screen.employee");
 	}
 
 	/**
@@ -43,14 +41,6 @@ class EmployeeController extends BaseController {
 		return response()->json($employee);
 	}
 
-	// public function create()
-	// {
-	// 	$model = new Employee();
-	// 	$model->fill($this->request->all());
-
-	// 	return response()->json($list);
-	// }
-
 	/**
 	 * Example URL: http://wealthpark.miko.nam/api/employee/create
 	 * Method: POST
@@ -68,13 +58,6 @@ class EmployeeController extends BaseController {
 
 		return response()->json($result);
 	}
-
-	// public function edit(Employee $employee)
-	// {
-	// 	$list = $this->modelClassName::search($this->request)->orderBy("created_at", "DESC")->paginate(20);
-
-	// 	return response()->json($list);
-	// }
 
 	/**
 	 * Example URL: http://wealthpark.miko.nam/api/employee/{employee_id}

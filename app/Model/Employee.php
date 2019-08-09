@@ -10,7 +10,6 @@ class Employee extends BaseModel
 	use EmployeeTrait;
 
     protected $fillable = [
-		// 'id',
 		'firstname',
 		'lastname',
 		'birthday',

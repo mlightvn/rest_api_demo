@@ -32,8 +32,6 @@ app.controller('myCtrl', function($scope, $http) {
 
 		params = objectAttributeFilter(params);
 
-// console.log("params");
-// console.log(params);
 		var config = {
 				params: params,
 				method : 'GET',
@@ -44,7 +42,6 @@ app.controller('myCtrl', function($scope, $http) {
 			.then(
 				function($response) { // 成功
 					$scope.model_list = $response.data.data;
-// console.log($response.data);
 					$scope.last_page   = $response.data.last_page;
 					$scope.current_page  = $response.data.current_page;
 
@@ -58,13 +55,12 @@ app.controller('myCtrl', function($scope, $http) {
 					$scope.range = pages;
 
 				}, function ($response) { // エラー発生
-					// $scope.myWelcome = $response.statusText;
 					console.log("get: error");
 					console.log($response);
 				}
 			);
 
-			// pagination(app, $argument);
+			pagination(app);
 	}
 
 	$scope.loadData = function(page){
@@ -148,9 +144,6 @@ app.controller('myCtrl', function($scope, $http) {
 		};
 
 		params = objectAttributeFilter(params);
-
-// console.log("params");
-// console.log(params);
 
 		$http.post(url, JSON.stringify(params))
 			.then(
