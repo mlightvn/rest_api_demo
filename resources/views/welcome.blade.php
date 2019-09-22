@@ -90,8 +90,8 @@
 
                 <div class="links">
                     <a href="https://coxanh.coupon-pon.net/about" target="_blank">Nguyen Ngoc Nam</a>
-                    <a href="https://wealth-park.com/en/" target="_blank">https://wealth-park.com/en/</a>
-                    <a href="https://github.com/namtenten/nam_api_test" target="_blank">Nam: GitHub Demo</a>
+                    {{-- <a href="https://wealth-park.com/en/" target="_blank">https://wealth-park.com/en/</a> --}}
+                    <a href="https://github.com/namtenten/rest_api_demo" target="_blank">GitHub</a>
                 </div>
 
                 <div class="links">
