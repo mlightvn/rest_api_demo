@@ -24,7 +24,8 @@
 					<td>@{{model.boss}}</td>
 					<td align="right">@{{model.salary | currency : '&yen;': false}}</td>
 					<td>
-						<button class="btn btn-primary btn-sm" name="btn_edit" ng-click="edit(model.id)" data-toggle="modal" data-target="#edit_modal" data-id="@{{model.id}}"><i class="fas fa-pencil-alt"></i></button> | <button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete_modal" data-id="@{{model.id}}" ng-click="deleteModelOpen(model.id)" ><i class="fas fa-trash"></i></button>
+						<button class="btn btn-primary btn-sm" name="btn_edit" ng-click="edit(model.id)" data-toggle="modal" data-target="#edit_modal" data-id="@{{model.id}}"><i class="fas fa-pencil-alt"></i></button>
+						<button class="btn btn-danger btn-sm" data-toggle="modal" data-target="#delete_modal" data-id="@{{model.id}}" ng-click="deleteModelOpen(model.id)" ><i class="fas fa-trash"></i></button>
 					</td>
 				</tr>
 				<tr ng-if="last_page == 0">
