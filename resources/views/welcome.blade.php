@@ -82,10 +82,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    NGUYEN NGOC NAM
-                </div>
-                <div class="title m-b-md">
-                    WEALTH PARK
+                    REST API DEMO
                 </div>
 
                 <div class="links">
